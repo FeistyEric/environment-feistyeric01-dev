@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:feistyeric01/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: brendan.rooney@gmail.com
+  token: vault:feistyeric01/pipelineUser:token
+  username: bjrooney
+prow:
+  hmacToken: vault:feistyeric01/prow:hmacToken
